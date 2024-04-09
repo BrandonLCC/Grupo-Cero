@@ -1,0 +1,41 @@
+:root {
+  --Color_Nav: rgb(98, 61, 25);
+  
+  --Border_color1: rgb(255, 255, 255);
+  --TEXT_COLOR_1: rgb(255, 255, 255);
+
+  --colo_1: rgb(255, 255, 255);
+  --colo_2: rgb(243, 245, 128);
+  --colo_3: rgb(255, 255, 255);
+}
+
+nav {
+  background-color: var(--Color_Nav);
+  color: aliceblue;
+  border-bottom-style:solid;
+  border-color: var(--Border_color1);
+  animation-name: animacion_logo;
+  animation-duration: 10s;
+  animation-iteration-count: infinite;
+}
+
+.TITULO {
+font-family:sans-serif;
+margin-top: 4px;
+}
+
+.titulo_carr {
+  font-size: 50px;
+  
+}
+
+@keyframes animacion_logo {
+  0% {border-color: var(--colo_1)}
+  25% {border-color: var(--colo_2)}
+  50% {border-color: var(--colo_3)}
+  75% {border-color: var(--colo_2)}
+  100% {border-color: var(--colo_1)}
+}
+
+
+
