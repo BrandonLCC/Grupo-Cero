@@ -6,17 +6,25 @@
 
   --colo_1: rgb(255, 255, 255);
   --colo_2: rgb(243, 245, 128);
-  --colo_3: rgb(255, 255, 255);
+  --colo_3: rgb(255, 154, 91);
 }
 
 nav {
   background-color: var(--Color_Nav);
-  color: aliceblue;
-  border-bottom-style:solid;
+  border-bottom: solid 2px;
   border-color: var(--Border_color1);
   animation-name: animacion_logo;
   animation-duration: 10s;
   animation-iteration-count: infinite;
+}
+
+.boton_buscar {
+  margin-left: 20px;
+  animation-name: animacion_logo;
+  animation-duration: 10s;
+  animation-iteration-count: infinite;
+
+  
 }
 
 .TITULO {
