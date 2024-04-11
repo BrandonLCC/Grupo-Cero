@@ -1,0 +1,55 @@
+:root {
+    --Color_Nav: rgb(33, 24, 7);
+    
+    --Border_color1: rgb(255, 255, 255);
+    --TEXT_COLOR_1: rgb(255, 255, 255);
+    --colo_4: rgb(252, 193, 0);
+
+  }
+  
+
+nav {
+  background-color: var(--Color_Nav);
+  border-bottom: solid 2px;
+  border-color: var(--colo_4);
+
+}
+
+  .TITULO {
+    background: linear-gradient(to right, #291601, rgb(0, 0, 0)); 
+    
+    padding: 10px;
+    border-radius: 0px 10px 0px 10px ;
+    font-family:sans-serif;
+    margin-top: 4px;
+}
+    
+
+img {
+border-radius: 10px;
+
+}
+.titulo_desc {
+position: relative;
+top: 15px;
+background-color:rgb(212, 212, 212);
+border-radius: 10px;
+
+
+}
+
+.principal {
+
+background-color: rgb(231, 231, 231);
+border-radius: 10px;
+color: var(--Color_Nav);
+
+}
+
+.volver {
+position:relative;
+display: flex;
+align-content: center;
+margin: 10px;
+} 
+

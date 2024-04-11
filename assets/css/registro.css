@@ -1,0 +1,109 @@
+
+
+:root {
+  --Color_cafe: rgb(33, 24, 7);
+  
+  --Border_color1: rgb(255, 255, 255);
+  --TEXT_COLOR_1: rgb(255, 255, 255);
+
+  --colo_1: rgb(255, 255, 255);
+
+  --colo_4: rgb(252, 193, 0);
+}
+
+
+.fondo {    
+position:fixed; /*para que el fondo se pueada adaptar a la pantalla*/
+background-position: center; /* Centrar la imagen */
+width: 100%;
+height: 100%;
+
+/*Centramos el contenido del primer div (el formulario)*/
+display: flex;
+align-items: center;
+justify-content: center;
+}
+  
+.formulario {
+position:relative; /*Para que el div este delante de del fondo de la imagen*/
+color: aliceblue;
+display:grid;
+align-items: center;
+justify-content: center;
+
+background-color:var(--Color_cafe);
+width: 480px;
+height: 550px;
+
+border-radius: 10px;
+border: solid 2px;
+border-color: var(--colo_4);
+opacity: 0.9;
+
+}
+
+.logo {
+position:relative;
+right: 90px;
+top: 12px
+
+} 
+
+.TITULO {
+  position: relative;
+  display: flex;
+  background: linear-gradient(to right, #291601, rgb(0, 0, 0));
+  padding: 10px;
+  border-radius: 0px 10px 0px 10px ;
+  font-family:sans-serif;
+  margin-top: 4px;
+  text-align: center;
+  
+}
+
+.TITULO {
+position: relative;
+display: flex;
+justify-content:left;
+bottom: 50px;
+right: 20px;
+}
+
+h1 {
+  position: relative;
+  display: flex;
+  justify-content: center;
+  bottom: 50px;  
+
+}
+h6 {
+position: relative;
+display: flex;
+justify-content:left;
+
+}
+
+.imputs {
+
+bottom: 40px;
+width: 260px;
+}
+
+
+.bto1 {
+position: relative;
+display:flex;
+justify-content: flex-end;
+
+right: 50px;
+}
+
+.bto2 {
+  position: relative;
+  display:flex;
+  left: 167px;
+  bottom: 47px;
+  
+  
+  }
+

@@ -1,5 +1,5 @@
 :root {
-  --Color_Nav: rgb(98, 61, 25);
+  --Color_Nav: rgb(33, 24, 7);
   
   --Border_color1: rgb(255, 255, 255);
   --TEXT_COLOR_1: rgb(255, 255, 255);
@@ -7,43 +7,85 @@
   --colo_1: rgb(255, 255, 255);
   --colo_2: rgb(243, 245, 128);
   --colo_3: rgb(255, 154, 91);
+  --colo_4: rgb(252, 193, 0);
 }
 
 nav {
   background-color: var(--Color_Nav);
   border-bottom: solid 2px;
-  border-color: var(--Border_color1);
-  animation-name: animacion_logo;
-  animation-duration: 10s;
-  animation-iteration-count: infinite;
+  border-color: var(--colo_4);
+
 }
 
 .boton_buscar {
   margin-left: 20px;
-  animation-name: animacion_logo;
-  animation-duration: 10s;
-  animation-iteration-count: infinite;
 
   
 }
 
 .TITULO {
+background: linear-gradient(to right, #291601, rgb(0, 0, 0)); /* Change colors as per your preference */
+
+padding: 10px;
+border-radius: 0px 10px 0px 10px ;
 font-family:sans-serif;
 margin-top: 4px;
 }
 
 .titulo_carr {
-  font-size: 50px;
+  position: relative;
+  display: flex;
+  color: var(--colo_1);
+  font-size: 55px;
+ 
+  justify-content: center;
+}
+.parrafo_carr {
+  position: relative;
+  display: flex;
+  justify-content: center;
+  bottom: 100px;
+ 
+
+}
+
+.exhibición {
+display: flex;
+justify-content: center;
+
+
+}
+
+/*Parte final de la pagina web*/
+footer {
+  background-color: var(--Color_Nav);
+  width: 100%;
+  padding-bottom: 100px;
+  display: flex;
+  position: relative;
+  justify-content: center;
+  border-top: solid 3px;
+  border-color: var(--colo_4);
+}
+
+.imgfooter {
+  position:absolute;
+  display: flex;
+  align-content: center;
+  top: 30px;
+
+}
+
+.copy {
+
+color: var(--colo_1);
+
+}
+
+/*Boton detalles*/
+.detalles {
+  position:relative;
+  display: flex;
   
+  align-items: center;
 }
-
-@keyframes animacion_logo {
-  0% {border-color: var(--colo_1)}
-  25% {border-color: var(--colo_2)}
-  50% {border-color: var(--colo_3)}
-  75% {border-color: var(--colo_2)}
-  100% {border-color: var(--colo_1)}
-}
-
-
-
