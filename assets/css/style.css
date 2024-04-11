@@ -3,10 +3,10 @@
   
   --Border_color1: rgb(255, 255, 255);
   --TEXT_COLOR_1: rgb(255, 255, 255);
-
+  --color_negro: rgb(227, 216, 117);
   --colo_1: rgb(255, 255, 255);
   --colo_2: rgb(243, 245, 128);
-  --colo_3: rgb(255, 154, 91);
+  --colo_3: rgb(255, 113, 91);
   --colo_4: rgb(252, 193, 0);
 }
 
@@ -35,7 +35,7 @@ margin-top: 4px;
 .titulo_carr {
   position: relative;
   display: flex;
-  color: var(--colo_1);
+  color: var(--color_negro);
   font-size: 55px;
  
   justify-content: center;
@@ -44,7 +44,6 @@ margin-top: 4px;
   position: relative;
   display: flex;
   justify-content: center;
-  bottom: 100px;
  
 
 }
