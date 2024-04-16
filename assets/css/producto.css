@@ -1,55 +1,95 @@
-:root {
-    --Color_Nav: rgb(33, 24, 7);
-    
-    --Border_color1: rgb(255, 255, 255);
-    --TEXT_COLOR_1: rgb(255, 255, 255);
-    --colo_4: rgb(252, 193, 0);
 
-  }
+* {
+  font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif
+
+}
+
+
+:root {
+  --Color_Nav: rgb(17, 12, 3);
+  --fondo_logo_grupocero: rgb(35, 23, 1);
+  --Border_color1: rgb(255, 255, 255);
+  --TEXT_COLOR_1: rgb(255, 255, 255);
+  --colo_4: rgb(17, 12, 3); 
+  --color_8: rgb(250, 192, 4);
+  --color_li_nav: rgb(27, 18, 5);
+  --negro:rgb(0, 0, 0);
+}
   
 
 nav {
   background-color: var(--Color_Nav);
-  border-bottom: solid 2px;
-  border-color: var(--colo_4);
+  border-color: var(--TEXT_COLOR_1);
 
 }
 
-  .TITULO {
-    background: linear-gradient(to right, #291601, rgb(0, 0, 0)); 
-    
-    padding: 10px;
-    border-radius: 0px 10px 0px 10px ;
-    font-family:sans-serif;
-    margin-top: 4px;
+.TITULO {
+  background-color:var(--fondo_logo_grupocero);
+  padding: 12px;
+  font-family:sans-serif;
+  margin-top: 4px;
+  border-radius: 4px;
+  
+  border-bottom: 2px solid var(--color_8);
+  border-left: 2px solid var(--TEXT_COLOR_1);
+  border-top: 2px solid var(--TEXT_COLOR_1);
+  border-right: 2px solid var(--color_8);
+
 }
-    
 
 img {
 border-radius: 10px;
 
 }
+
 .titulo_desc {
-position: relative;
-top: 15px;
-background-color:rgb(212, 212, 212);
-border-radius: 10px;
+  position: relative;
+  top: 15px;
+  background-color:rgb(212, 212, 212);
+  border-radius: 10px;
 
 
 }
 
 .principal {
-
-background-color: rgb(231, 231, 231);
-border-radius: 10px;
-color: var(--Color_Nav);
+  background-color: rgb(231, 231, 231);
+  border-radius: 10px;
+  color: var(--Color_Nav);
 
 }
 
 .volver {
-position:relative;
-display: flex;
-align-content: center;
-margin: 10px;
+  position:relative;
+  display: flex;
+  align-content: center;
+  margin: 10px;
+
 } 
 
+li {
+  background-color:var(--color_li_nav) ;
+  text-align: center;
+  margin: 5px;
+  padding: 5px;
+  border-radius: 5px;
+  border-bottom: solid 1px var(--negro);
+  border-right: solid 1px var(--negro);
+
+} 
+
+
+.titulo_desc {
+background-color:rgb(212, 212, 212);
+padding: 15px;
+}
+
+.litext {
+  background-color:rgb(216, 216, 216) ;
+  text-align: center;
+  margin: 5px;
+  padding: 5px;
+  border-radius: 5px;
+  border: none;
+
+
+}

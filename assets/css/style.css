@@ -1,19 +1,30 @@
+* {
+
+  font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif
+}
+
 :root {
-  --Color_Nav: rgb(33, 24, 7);
+  --Color_Nav: rgb(17, 12, 3);
   
   --Border_color1: rgb(255, 255, 255);
   --TEXT_COLOR_1: rgb(255, 255, 255);
-  --color_negro: rgb(227, 216, 117);
+  --color_0: rgb(227, 216, 117);
   --colo_1: rgb(255, 255, 255);
   --colo_2: rgb(243, 245, 128);
   --colo_3: rgb(255, 113, 91);
   --colo_4: rgb(252, 193, 0);
+  --color_8: rgb(250, 192, 4);
+  --color_5: rgb(179, 179, 179);
+  --color_6: rgb(16, 11, 3); 
+   --color_6: rgb(16, 11, 3);
+  --color_li_nav: rgb(27, 18, 5);
+  --negro:rgb(0, 0, 0);
+  --titulo_colorgrupocero:rgb(35, 23, 1);
 }
 
 nav {
   background-color: var(--Color_Nav);
-  border-bottom: solid 2px;
-  border-color: var(--colo_4);
+  border-color: var(--TEXT_COLOR_1);
 
 }
 
@@ -24,27 +35,50 @@ nav {
 }
 
 .TITULO {
-background: linear-gradient(to right, #291601, rgb(0, 0, 0)); /* Change colors as per your preference */
-
-padding: 10px;
-border-radius: 0px 10px 0px 10px ;
+background-color:var(--titulo_colorgrupocero);
+padding: 12px;
 font-family:sans-serif;
 margin-top: 4px;
+border-radius: 4px;
+
+border-bottom: 2px solid var(--color_8);
+border-left: 2px solid var(--TEXT_COLOR_1);
+border-top: 2px solid var(--TEXT_COLOR_1);
+border-right: 2px solid var(--color_8);
+
 }
 
+
+
 .titulo_carr {
+  
   position: relative;
   display: flex;
-  color: var(--color_negro);
-  font-size: 55px;
- 
+  font-size: 65px;
   justify-content: center;
+
+
 }
 .parrafo_carr {
   position: relative;
   display: flex;
   justify-content: center;
  
+
+}
+
+.titulosh2 {
+border: 1px solid;
+border-color: var(--color_5);
+border-radius: 30px;
+
+}
+
+.titulosh2v2 {
+  border: 1px solid;
+  border-color: var(--color_5);
+  border-radius: 30px;
+  
 
 }
 
@@ -63,8 +97,9 @@ footer {
   display: flex;
   position: relative;
   justify-content: center;
-  border-top: solid 3px;
+  border-bottom: solid 1px;
   border-color: var(--colo_4);
+
 }
 
 .imgfooter {
@@ -88,3 +123,14 @@ color: var(--colo_1);
   
   align-items: center;
 }
+
+li {
+  background-color:var(--color_li_nav) ;
+  text-align: center;
+  margin: 5px;
+  padding: 5px;
+  border-radius: 5px;
+  border-bottom: solid 1px var(--negro);
+  border-right: solid 1px var(--negro);
+
+} 
