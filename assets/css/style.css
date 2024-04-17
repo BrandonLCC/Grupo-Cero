@@ -1,5 +1,5 @@
 * {
-
+  
   font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif
 }
 
@@ -21,6 +21,7 @@
   --negro:rgb(0, 0, 0);
   --titulo_colorgrupocero:rgb(35, 23, 1);
 }
+
 
 nav {
   background-color: var(--Color_Nav);
@@ -84,9 +85,8 @@ border-radius: 30px;
 
 .exhibición {
 display: flex;
+flex-wrap: wrap;
 justify-content: center;
-
-
 }
 
 /*Parte final de la pagina web*/
@@ -134,3 +134,8 @@ li {
   border-right: solid 1px var(--negro);
 
 } 
+
+.exhibiciónIMG {
+display: flex;
+height: 250px;
+}
